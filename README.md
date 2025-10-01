@@ -10,6 +10,7 @@ pip install -r requirements.txt
 Training in a reasonable time requires a GPU
 But testing can be done without.
 
+Checkpoint can be downloaded and should be put in root directory https://drive.google.com/file/d/1kp1aFu5l6OdGaIw1gwhRaQWRe2jQ89KL/view?usp=sharing
 ### Running the model
 
 ```bash
