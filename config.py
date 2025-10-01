@@ -11,7 +11,7 @@ class ExperimentConfig:
     data_labels=['math', 'graphs', 'strings', 'number theory', 'trees',
     'geometry', 'games', 'probabilities']
     max_len_description=2000
-    max_len_in_out_description=1000
+    max_len_in_out_description=2000
     max_len_code=2000
     test_only=False
     test_dataset=None

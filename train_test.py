@@ -160,7 +160,8 @@ def main(args=None):
         print(f'Loaded model from {config.checkpoint_path}')
 
     ##testing
-    test(model, config, test_dataset)
+    test_rslt=test(model, config, test_dataset)
+    return test_rslt,train_losses,val_losses
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
